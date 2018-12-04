@@ -289,10 +289,11 @@ set(YAMPL_PY_VERSION 1.0)
 option(WITH_PYBIND "Include PyBind11 bindings in the build" ON)
 
 if (WITH_PYBIND)
-    if (NOT EXISTS "${CMAKE_SOURCE_DIR}/pybind11")
-        AddExtProjectGit("https://github.com/pybind/pybind11" ${CMAKE_SOURCE_DIR})
-    endif()
-    add_subdirectory(pybind11)
+    #if (NOT EXISTS "${CMAKE_SOURCE_DIR}/pybind11")
+    #    AddExtProjectGit("https://github.com/pybind/pybind11" ${CMAKE_SOURCE_DIR})
+    #endif()
+    #add_subdirectory(pybind11)
+    add_subdirectory(/home/sss/atlas/extern/yampl/pybind11 pybind11)
 
     if (PYPI_INVOKE)
         pybind11_add_module(yampl_py

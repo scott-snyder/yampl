@@ -10,13 +10,13 @@ if (NOT DEFINED WITH_PLUGIN_ZMQ OR WITH_PLUGIN_ZMQ)
     set(ZEROMQ_INCLUDE_DIR ${ZEROMQ_ROOT_DIR}/bin/include)
 
     ExternalProject_Add(ZeroMQ
-        GIT_REPOSITORY "https://github.com/zeromq/libzmq"
+        GIT_REPOSITORY "/home/sss/atlas/extern/yampl/libzmq"
         PREFIX ${ZEROMQ_ROOT_DIR}
         GIT_TAG "d062edd8c142384792955796329baf1e5a3377cd"
         UPDATE_COMMAND ""
         PATCH_COMMAND ""
         INSTALL_DIR ${ZEROMQ_ROOT_DIR}/bin
-        CMAKE_ARGS -DZMQ_BUILD_TESTS=OFF -DWITH_PERF_TOOL=OFF -DENABLE_CPACK=OFF -DCMAKE_INSTALL_PREFIX=${ZEROMQ_ROOT_DIR}/bin
+        CMAKE_ARGS -DZMQ_BUILD_TESTS=OFF -DWITH_PERF_TOOL=OFF -DENABLE_CPACK=OFF -DCMAKE_INSTALL_PREFIX=${ZEROMQ_ROOT_DIR}/bin -DCMAKE_POLICY_VERSION_MINIMUM=3.5
         BUILD_COMMAND make
         TEST_COMMAND ""
     )
@@ -31,7 +31,7 @@ if (NOT DEFINED WITH_PLUGIN_ZMQ OR WITH_PLUGIN_ZMQ)
     set(CPPZMQ_INCLUDE_DIR ${CPPZMQ_ROOT}/src/CppZMQ)
 
     ExternalProject_Add(CppZMQ
-        GIT_REPOSITORY "https://github.com/zeromq/cppzmq"
+        GIT_REPOSITORY "/home/sss/atlas/extern/yampl/cppzmq"
         PREFIX ${CPPZMQ_ROOT}
         GIT_TAG "6aa3ab686e916cb0e62df7fa7d12e0b13ae9fae6"
         CONFIGURE_COMMAND ""
