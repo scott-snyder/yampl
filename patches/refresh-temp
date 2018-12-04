@@ -1,0 +1,31 @@
+Bottom: 2783914ff7ff8c978333d1717800b7fcaeb0ca46
+Top:    ce693e55edf4b5cd0215c8d84adbbc34d99de3ff
+Author: scott snyder <sss@karma>
+Date:   2018-12-04 10:55:06 -0500
+
+Refresh of repos
+
+---
+
+diff --git a/cmake/YamplDepends.cmake b/cmake/YamplDepends.cmake
+index 8743048..8f948e1 100644
+--- a/cmake/YamplDepends.cmake
++++ b/cmake/YamplDepends.cmake
+@@ -10,7 +10,7 @@ if (NOT DEFINED WITH_PLUGIN_ZMQ OR WITH_PLUGIN_ZMQ)
+     set(ZEROMQ_INCLUDE_DIR ${ZEROMQ_ROOT_DIR}/bin/include)
+ 
+     ExternalProject_Add(ZeroMQ
+-        GIT_REPOSITORY "https://github.com/zeromq/libzmq"
++        GIT_REPOSITORY "/home/sss/atlas/extern/yampl/libzmq"
+         PREFIX ${ZEROMQ_ROOT_DIR}
+         GIT_TAG "d062edd8c142384792955796329baf1e5a3377cd"
+         UPDATE_COMMAND ""
+@@ -31,7 +31,7 @@ if (NOT DEFINED WITH_PLUGIN_ZMQ OR WITH_PLUGIN_ZMQ)
+     set(CPPZMQ_INCLUDE_DIR ${CPPZMQ_ROOT}/src/CppZMQ)
+ 
+     ExternalProject_Add(CppZMQ
+-        GIT_REPOSITORY "https://github.com/zeromq/cppzmq"
++        GIT_REPOSITORY "/home/sss/atlas/extern/yampl/cppzmq"
+         PREFIX ${CPPZMQ_ROOT}
+         GIT_TAG "6aa3ab686e916cb0e62df7fa7d12e0b13ae9fae6"
+         CONFIGURE_COMMAND ""
