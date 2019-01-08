@@ -1,0 +1,19 @@
+Bottom: ce693e55edf4b5cd0215c8d84adbbc34d99de3ff
+Top:    00019c093801a2616ce21400a6c6b762215cf093
+Author: scott snyder <sss@karma>
+Date:   2019-01-08 16:43:32 -0500
+
+Refresh of gitignore
+
+---
+
+diff --git a/.gitignore b/.gitignore
+index 8823149..c16f389 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -15,3 +15,5 @@
+ # vim trash
+ *.swp
+ *.un~
++
++*~
