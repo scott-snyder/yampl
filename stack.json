@@ -1,0 +1,19 @@
+{
+  "version": 5,
+  "prev": "None",
+  "head": "5cc44bec3b8f124d030c0cabdf6b9f1359bde42b",
+  "applied": [
+    "repos",
+    "gitignore"
+  ],
+  "unapplied": [],
+  "hidden": [],
+  "patches": {
+    "repos": {
+      "oid": "c6d1d2d2ec99f2b218b492fd533a2df6201f733b"
+    },
+    "gitignore": {
+      "oid": "5cc44bec3b8f124d030c0cabdf6b9f1359bde42b"
+    }
+  }
+}
