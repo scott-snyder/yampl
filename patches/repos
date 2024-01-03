@@ -1,0 +1,6 @@
+Bottom: 2783914ff7ff8c978333d1717800b7fcaeb0ca46
+Top:    ce693e55edf4b5cd0215c8d84adbbc34d99de3ff
+Author: scott snyder <sss@karma>
+Date:   2018-12-04 10:55:00 -0500
+
+Use local repos for dependent packages, rather than downloading from github.
