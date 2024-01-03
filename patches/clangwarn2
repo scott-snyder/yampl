@@ -1,0 +1,14 @@
+Bottom: 9a47d1d57a5823844021ebb1bb63a95a3ebc6a3b
+Top:    9a47d1d57a5823844021ebb1bb63a95a3ebc6a3b
+Author: scott snyder <sss@karma>
+Date:   2024-01-03 14:41:43 -0500
+
+Fix warning from clang on testing function return.
+
+m_socket->send() returns a bool, but code in ServerSocket.cpp compares
+it against -1.  clang16 generates a warning that this comparision
+is never true.
+
+Apparently this is written this way because the library used to return
+an int here, but now signals errors by raising an exception.
+Avoid the warning by casting to an int.
