@@ -1,0 +1,10 @@
+Bottom: 21abe7dbd0bc7b25fd65c4a774bf0e4bd7df76db
+Top:    21abe7dbd0bc7b25fd65c4a774bf0e4bd7df76db
+Author: scott snyder <sss@karma>
+Date:   2024-01-03 14:21:53 -0500
+
+Fix compilation with clang16.
+
+Compilation failures were observed with clang16 because DynamicModule.h
+tries to throw an instance of an exception class that is only forward-declared.
+Fix by moving the actual throw out-of-line.

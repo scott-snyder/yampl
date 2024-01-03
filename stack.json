@@ -1,13 +1,14 @@
 {
   "version": 5,
-  "prev": "512606a012f126e8cb51811e340977063e0ac3f5",
-  "head": "096612acf49df430146e098ee18cbb6f3e974976",
+  "prev": "7fb5d4b0055249092b59d3c2b8cad0f31ee9c9d4",
+  "head": "1f6156e2aa3325a78d51bdca9d8b7a192cc7c532",
   "applied": [
     "repos",
     "gitignore",
     "include",
     "noexcept",
-    "override"
+    "override",
+    "clangexcept"
   ],
   "unapplied": [],
   "hidden": [],
@@ -26,6 +27,9 @@
     },
     "override": {
       "oid": "096612acf49df430146e098ee18cbb6f3e974976"
+    },
+    "clangexcept": {
+      "oid": "1f6156e2aa3325a78d51bdca9d8b7a192cc7c532"
     }
   }
 }
