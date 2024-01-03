@@ -1,0 +1,8 @@
+Bottom: 323c7567a763c24ccd9b531077b375a86b4661ef
+Top:    323c7567a763c24ccd9b531077b375a86b4661ef
+Author: scott snyder <sss@karma>
+Date:   2024-01-03 14:20:02 -0500
+
+Add missing override keywords.
+
+Fixes warnings observed with clang16.

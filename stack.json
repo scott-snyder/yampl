@@ -1,12 +1,13 @@
 {
   "version": 5,
-  "prev": "568998f39051374fcb927553aaf43f25d3c29c34",
-  "head": "b1acc6781dd393ebfc7c2be465edcd70e7c0282d",
+  "prev": "3e4850674009ac622dc22c817a3ab3586a349114",
+  "head": "eeff25d951dbb35410f80901b94a28348e9269ca",
   "applied": [
     "repos",
     "gitignore",
     "include",
-    "noexcept"
+    "noexcept",
+    "override"
   ],
   "unapplied": [],
   "hidden": [],
@@ -22,6 +23,9 @@
     },
     "noexcept": {
       "oid": "b1acc6781dd393ebfc7c2be465edcd70e7c0282d"
+    },
+    "override": {
+      "oid": "eeff25d951dbb35410f80901b94a28348e9269ca"
     }
   }
 }
