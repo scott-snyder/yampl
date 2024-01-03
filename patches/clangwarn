@@ -1,0 +1,9 @@
+Bottom: dd66c5d9107ed4c9ede0446acb4150d8a743a907
+Top:    dd66c5d9107ed4c9ede0446acb4150d8a743a907
+Author: scott snyder <sss@karma>
+Date:   2024-01-03 14:23:45 -0500
+
+Fix warning options for clang.
+
+-Wno-terminate is not a valid switch for clang.
+Enable it only if we're building with gcc.
