@@ -1,0 +1,10 @@
+Bottom: a7d9c12cadc6bcae7087fb04ed310b9689726c60
+Top:    a7d9c12cadc6bcae7087fb04ed310b9689726c60
+Author: scott snyder <sss@karma>
+Date:   2024-01-03 14:12:37 -0500
+
+Mark destructors that can throw exceptions.
+
+Destructors are implicitly noexcept unless they are explicitly
+declared otherwise.  Some destructors here can throw, so mark them
+with noexcept(false).  Fixes warnings observed with clang16.
