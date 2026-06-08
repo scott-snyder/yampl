@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "4013ecbc8d8676c6024c0b7db04ac256f22fcb06",
-  "head": "181ba9e2e83fde4e590f5142daaea13413d74622",
+  "prev": "e144c9a3d5701d3724bddef251c4b83e149e759a",
+  "head": "c9805c12949b71ea5dd1fc883646d5030790d8c1",
   "applied": [
     "repos",
     "gitignore",
@@ -10,7 +10,8 @@
     "override",
     "clangexcept",
     "clangwarn",
-    "clangwarn2"
+    "clangwarn2",
+    "cmake"
   ],
   "unapplied": [],
   "hidden": [],
@@ -38,6 +39,9 @@
     },
     "clangwarn2": {
       "oid": "181ba9e2e83fde4e590f5142daaea13413d74622"
+    },
+    "cmake": {
+      "oid": "c9805c12949b71ea5dd1fc883646d5030790d8c1"
     }
   }
 }
