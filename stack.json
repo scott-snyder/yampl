@@ -1,15 +1,10 @@
 {
   "version": 5,
-  "prev": "94ca98e9991eb4282cef3453588968d90325eceb",
-  "head": "0526ee1dcdc05fa4f0ea407193454c9211c1bf55",
+  "prev": "5f41fe0aa2c5630e3bb56c61ecf932433610e022",
+  "head": "2abac892721bc6f2059045de4d9c9e9538fb1e53",
   "applied": [
     "repos",
     "gitignore",
-    "include",
-    "noexcept",
-    "override",
-    "clangexcept",
-    "clangwarn",
     "clangwarn2",
     "cmake"
   ],
@@ -22,26 +17,11 @@
     "gitignore": {
       "oid": "6365728bcb3774ac3ba35752893f1b52bca00f71"
     },
-    "include": {
-      "oid": "7a4104b7c7cbd2fd46e49f6001a61e98a95e1a0d"
-    },
-    "noexcept": {
-      "oid": "0ed64cde7284f18c53133336e06b626b54f3d56a"
-    },
-    "override": {
-      "oid": "0beca86f789148e7ac69c2b812fee88942e4a438"
-    },
-    "clangexcept": {
-      "oid": "d6257238ddffca78ce8c1495bef1863a6b2be37f"
-    },
-    "clangwarn": {
-      "oid": "f57c91cb779b977a46703df58ff7839cc12200f0"
-    },
     "clangwarn2": {
-      "oid": "72717005ed3f18f111bec2f3d709b84d63b178fe"
+      "oid": "99799a5852a8965698eb7a19f9577da6bf95aa13"
     },
     "cmake": {
-      "oid": "0526ee1dcdc05fa4f0ea407193454c9211c1bf55"
+      "oid": "2abac892721bc6f2059045de4d9c9e9538fb1e53"
     }
   }
 }

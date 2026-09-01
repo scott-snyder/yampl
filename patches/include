@@ -1,9 +1,0 @@
-Bottom: 45d94b19e26ccf4dd25931f63ab27efb6f79556f
-Top:    45d94b19e26ccf4dd25931f63ab27efb6f79556f
-Author: scott snyder <sss@karma>
-Date:   2024-01-03 14:10:32 -0500
-
-Missing #include.
-
-Missing #include <stdexcept>.
-Fixes compilation failure observed with gcc14.
